@@ -1,3 +1,4 @@
+// Copies POST.json (the posted tweet's URL) into the run output directory.
 import { readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { join } from "node:path";
 
